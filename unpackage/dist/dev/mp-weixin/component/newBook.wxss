@@ -1,0 +1,55 @@
+.new-book.data-v-e1b9630e {
+  margin: 20rpx;
+}
+.new-book .book-top.data-v-e1b9630e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.new-book .book-top .more.data-v-e1b9630e,
+.new-book .book-top text.data-v-e1b9630e {
+  font-size: 9px;
+  color: #999999;
+}
+.new-book .book-item .item-box.data-v-e1b9630e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 20rpx 0;
+}
+.new-book .book-item .item-box .left.data-v-e1b9630e {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.new-book .book-item .item-box .left image.data-v-e1b9630e {
+  width: 90%;
+  height: 200rpx;
+}
+.new-book .book-item .item-box .right.data-v-e1b9630e {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  overflow: hidden;
+}
+.new-book .book-item .item-box .right .info-title.data-v-e1b9630e {
+  width: 95%;
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.new-book .book-item .item-box .right .info-content.data-v-e1b9630e {
+  font-size: 24rpx;
+  color: #999999;
+  padding-top: 20rpx;
+  width: 95%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+

@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path":"pages/find/find",
+			"style":{
+				"navigationBarTitleText":"寻书中心"
+			}
+		},
+		{
+			"path":"pages/publish/publish",
+			"style":{
+				"navigationBarTitleText":"发布"
+			}
+		},
+		{
+			"path":"pages/my/my",
+			"style":{
+				"navigationBarTitleText":"我的"
+			}
+		},
+		{
+			"path":"pages/collect/collect",
+			"style":{
+				"navigationBarTitleText":"收藏"
+			}
+		},
+    {
+        "path" : "pages/search/search",
+        "style" :{
+            "navigationBarTitleText": "搜索"
+        }
+    }    
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundTextStyle": "dark",
+		"enablePullDownRefresh": true,
+		"navigationBarBackgroundColor": "#DD524D",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar":{
+		"color":"#C0C0C0",
+		"selectedColor":"#DD524D",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/yemians.png",
+				"selectedIconPath":"static/icon/yemian.png"
+			},
+			{
+				"text":"寻书",
+				"pagePath":"pages/find/find",
+				"iconPath":"static/icon/1-copys.png",
+				"selectedIconPath":"static/icon/1-copy.png"
+			},
+			{
+				"text":"发布",
+				"pagePath":"pages/publish/publish",
+				"iconPath":"static/icon/fubu1.png",
+				"selectedIconPath":"static/icon/fabu.png"
+			},
+			{
+				"text":"收藏",
+				"pagePath":"pages/collect/collect",
+				"iconPath":"static/icon/biaojis.png",
+				"selectedIconPath":"static/icon/biaoji.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/my/my",
+				"iconPath":"static/icon/wodes.png",
+				"selectedIconPath":"static/icon/my.png"
+			}
+		]
+	}
+}

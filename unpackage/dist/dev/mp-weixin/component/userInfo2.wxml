@@ -1,0 +1,1 @@
+<view class="user-message data-v-d9eb27ee"><view class="item-num data-v-d9eb27ee"><block wx:for="{{num}}" wx:for-item="item" wx:for-index="__i0__"><view class="data-v-d9eb27ee">{{item}}</view></block></view><view class="item data-v-d9eb27ee"><block wx:for="{{goods}}" wx:for-item="item" wx:for-index="__i1__"><view class="goods data-v-d9eb27ee">{{item}}</view></block></view></view>

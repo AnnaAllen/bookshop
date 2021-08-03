@@ -1,0 +1,55 @@
+.book-rec .book-top.data-v-4ebca2a3 {
+  padding: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.book-rec .book-top .more.data-v-4ebca2a3,
+.book-rec .book-top text.data-v-4ebca2a3 {
+  font-size: 24rpx;
+  color: #999999;
+}
+.book-rec .book-content.data-v-4ebca2a3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: auto;
+  margin: 0 20rpx;
+}
+.book-rec .book-content .book-item.data-v-4ebca2a3:nth-child(n+2) {
+  margin-left: 25rpx;
+}
+.book-rec .book-content .book-item.data-v-4ebca2a3 {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+  width: 200rpx;
+}
+.book-rec .book-content .book-item image.data-v-4ebca2a3 {
+  width: 90%;
+  height: 200rpx;
+  margin: 5%;
+}
+.book-rec .book-content .book-item .book-info.data-v-4ebca2a3 {
+  padding: 20rpx 0;
+}
+.book-rec .book-content .book-item .book-info .title.data-v-4ebca2a3 {
+  font-size: 20rpx;
+}
+.book-rec .book-content .book-item .book-info .writer.data-v-4ebca2a3 {
+  font-size: 18rpx;
+  color: #999999;
+  padding: 10rpx 0;
+}
+.book-rec .book-content .book-item .book-info .shop-style.data-v-4ebca2a3 {
+  font-size: 18rpx;
+}
+.book-rec .book-content .book-item .book-info .shop-style text.data-v-4ebca2a3 {
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #DD524D;
+}
+

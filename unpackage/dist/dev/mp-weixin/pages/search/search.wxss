@@ -1,0 +1,40 @@
+.searchPage.data-v-4cedc0c6 {
+  padding: 0 20rpx;
+  background-color: white;
+}
+.search-history .title.data-v-4cedc0c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.search-history .title .icon-box.data-v-4cedc0c6 {
+  color: #DD524D;
+}
+.history-box.data-v-4cedc0c6 {
+  padding-top: 20rpx;
+  height: 30vh;
+  border-bottom: 2rpx solid #C8C7CC;
+  overflow: hidden;
+}
+.history-box .forAWhite.data-v-4cedc0c6 {
+  color: #999999;
+  text-align: center;
+}
+.history-box .hasHistory.data-v-4cedc0c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.history-box .hasHistory .history-item.data-v-4cedc0c6 {
+  background-color: rgba(0, 0, 0, 0.1);
+  letter-spacing: 1rpx;
+  margin: 10rpx;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+

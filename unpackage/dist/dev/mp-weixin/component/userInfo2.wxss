@@ -1,0 +1,27 @@
+.user-message .item-num.data-v-d9eb27ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+}
+.user-message .item-num view.data-v-d9eb27ee {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.user-message .item.data-v-d9eb27ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  text-align: center;
+}
+.user-message .item .goods.data-v-d9eb27ee {
+  font-size: 30rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+

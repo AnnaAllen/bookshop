@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "search": "/component/search",
+    "classify": "/component/classify",
+    "fourth": "/component/fourths",
+    "book-rec": "/component/bookRecommend",
+    "new-book": "/component/newBook"
+  }
+}

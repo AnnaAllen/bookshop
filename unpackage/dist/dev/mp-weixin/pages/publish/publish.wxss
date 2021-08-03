@@ -1,0 +1,59 @@
+.public.data-v-177a8126 {
+  position: relative;
+  background-color: #555555;
+  height: 100vh;
+}
+.public .public-box.data-v-177a8126 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15vh;
+}
+.public .public-box .public-item.data-v-177a8126 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 10vh;
+  padding: 4% 0;
+}
+.public .public-box .public-item .blank.data-v-177a8126 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.public .public-box .public-item .item-img.data-v-177a8126 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.public .public-box .public-item .item-img view.data-v-177a8126 {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: #DD524D;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: white;
+  font-size: 70rpx;
+}
+.public .public-box .public-item .item-content.data-v-177a8126 {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+}
+.public .public-box .public-item .item-content .title.data-v-177a8126 {
+  font-weight: 600;
+  padding-bottom: 1%;
+  color: white;
+}
+.public .public-box .public-item .item-content .explain.data-v-177a8126 {
+  color: #999999;
+  font-size: 28rpx;
+}
+

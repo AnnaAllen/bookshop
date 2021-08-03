@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/publish/publish",
+    "pages/my/my",
+    "pages/collect/collect",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#DD524D",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#DD524D",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/yemians.png",
+        "selectedIconPath": "static/icon/yemian.png"
+      },
+      {
+        "text": "寻书",
+        "pagePath": "pages/find/find",
+        "iconPath": "static/icon/1-copys.png",
+        "selectedIconPath": "static/icon/1-copy.png"
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/publish/publish",
+        "iconPath": "static/icon/fubu1.png",
+        "selectedIconPath": "static/icon/fabu.png"
+      },
+      {
+        "text": "收藏",
+        "pagePath": "pages/collect/collect",
+        "iconPath": "static/icon/biaojis.png",
+        "selectedIconPath": "static/icon/biaoji.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icon/wodes.png",
+        "selectedIconPath": "static/icon/my.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

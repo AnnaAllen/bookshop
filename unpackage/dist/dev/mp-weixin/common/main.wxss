@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+  font-family: "iconfont"; /* Project id 2709756 */
+  src: url('//at.alicdn.com/t/font_2709756_rv2vs81xya.woff2?t=1627975368214') format('woff2'),
+       url('//at.alicdn.com/t/font_2709756_rv2vs81xya.woff?t=1627975368214') format('woff'),
+       url('//at.alicdn.com/t/font_2709756_rv2vs81xya.ttf?t=1627975368214') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-qingchu:before {
+  content: "\e647";
+}
+.icon-xihuan:before {
+  content: "\e604";
+}
+.icon-gouwudai:before {
+  content: "\e61d";
+}
+.icon-order:before {
+  content: "\e605";
+}
+.icon-bk-dot:before {
+  content: "\e60d";
+}
+.icon-shutiao:before {
+  content: "\e660";
+}
+.icon-home_ico_like-:before {
+  content: "\e622";
+}
+.icon-xingtaiduICON_sousuo--:before {
+  content: "\e603";
+}
+.icon-genduo1:before {
+  content: "\e602";
+}
+.icon-yiwu:before {
+  content: "\e601";
+}
+.icon-jiaohuan:before {
+  content: "\e606";
+}
+.icon-chushou:before {
+  content: "\e612";
+}
+.icon-jiaoliu:before {
+  content: "\e704";
+}
+.icon-richscan_icon:before {
+  content: "\e600";
+}
+.icon-xiaoxi:before {
+  content: "\e688";
+}
+

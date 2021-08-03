@@ -1,0 +1,71 @@
+.user-like .like-item .item-box2.data-v-21d76395 {
+  padding: 10rpx 20rpx;
+}
+.user-like .like-item .item-box2 .box2-big.data-v-21d76395 {
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #F1F1F1;
+}
+.user-like .like-item .item-box2 .box2-big .box2-user-info.data-v-21d76395 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 7vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 24rpx;
+}
+.user-like .like-item .item-box2 .box2-big .box2-user-info .user-img.data-v-21d76395 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.user-like .like-item .item-box2 .box2-big .box2-user-info .user-img image.data-v-21d76395 {
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 30rpx;
+}
+.user-like .like-item .item-box2 .box2-big .box2-user-info .user-img view.data-v-21d76395 {
+  margin-left: 20rpx;
+}
+.user-like .like-item .item-box2 .box2-big .box2-user-info .attention.data-v-21d76395 {
+  background-color: #C8C7CC;
+  padding: 10rpx 20rpx;
+  border-radius: 20rpx;
+  color: white;
+}
+.user-like .like-item .item-box2 .box2-big .box2-user-info .attention2.data-v-21d76395 {
+  background-color: #F0AD4E;
+  padding: 10rpx 20rpx;
+  border-radius: 20rpx;
+  color: white;
+}
+.user-like .like-item .item-box2 .box2-big .box2-title.data-v-21d76395 {
+  width: 85%;
+  font-weight: 600;
+  font-size: 28rpx;
+  padding: 10rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.user-like .like-item .item-box2 .box2-big .box2-content.data-v-21d76395 {
+  padding: 10rpx;
+  color: #555555;
+  font-size: 24rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.user-like .like-item .item-box2 .box2-big .box2-img image.data-v-21d76395 {
+  width: 100%;
+  border-radius: 10rpx;
+}
+

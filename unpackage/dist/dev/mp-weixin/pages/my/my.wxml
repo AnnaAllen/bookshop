@@ -1,0 +1,1 @@
+<view class="my data-v-0be17cc6"><view class="padd data-v-0be17cc6"><user-info class="user-info data-v-0be17cc6" vue-id="704e9d00-1" userInfo="{{userInfo}}" bind:__l="__l"></user-info></view><user-info2 vue-id="704e9d00-2" num="{{num}}" goods="{{goods}}" class="data-v-0be17cc6" bind:__l="__l"></user-info2><view class="border-type data-v-0be17cc6"></view></view>

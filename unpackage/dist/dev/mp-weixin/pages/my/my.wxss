@@ -1,0 +1,34 @@
+.classiy .classiy-item.data-v-5973db38 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.classiy .classiy-item .classiy-style.data-v-5973db38 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  font-size: 18rpx;
+}
+.classiy .classiy-item .classiy-style text.data-v-5973db38 {
+  color: white;
+  font-size: 60rpx;
+  background-color: #DD524D;
+  border-radius: 50rpx;
+  padding: 10rpx;
+}
+.classiy .classiy-item .classiy-style view.data-v-5973db38 {
+  padding-top: 20rpx;
+}
+
+.my.data-v-0be17cc6 {
+  padding: 20rpx;
+}
+.padd.data-v-0be17cc6 {
+  padding: 20rpx 0;
+}
+.border-type.data-v-0be17cc6 {
+  padding-top: 20rpx;
+  border-bottom: 2rpx solid #C8C7CC;
+}
+

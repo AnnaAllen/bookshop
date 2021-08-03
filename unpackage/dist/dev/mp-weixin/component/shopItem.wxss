@@ -1,0 +1,70 @@
+.islike.data-v-5acc86ee {
+  color: #DD524D;
+}
+.shop-item.data-v-5acc86ee {
+  padding: 40rpx 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.shop-item .item-box.data-v-5acc86ee {
+  width: 48.3%;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.shop-item .item-box .img-box image.data-v-5acc86ee {
+  width: 100%;
+  border-radius: 20rpx;
+}
+.shop-item .item-box .content.data-v-5acc86ee {
+  font-size: 28rpx;
+  letter-spacing: 2rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.shop-item .item-box .user-box.data-v-5acc86ee {
+  padding: 20rpx 0;
+  line-height: 60rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+  color: #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shop-item .item-box .user-box .user-img.data-v-5acc86ee {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-right: 10rpx;
+}
+.shop-item .item-box .user-box .user-img image.data-v-5acc86ee {
+  width: 90%;
+  height: 90%;
+  border-radius: 50rpx;
+}
+.shop-item .item-box .user-box .user-name.data-v-5acc86ee {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.shop-item .item-box .user-box .user-like.data-v-5acc86ee {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.shop-item .item-box .user-box .user-like text.data-v-5acc86ee {
+  font-size: 24rpx;
+  padding-right: 10rpx;
+}
+

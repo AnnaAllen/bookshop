@@ -1,0 +1,22 @@
+.search {
+  padding: 0 20rpx;
+}
+.index-swiper {
+  margin-bottom: 10rpx;
+}
+.index-swiper swiper {
+  width: 710rpx;
+  height: 300rpx;
+  margin: 0 20rpx 40rpx 20rpx;
+}
+.index-swiper swiper swiper-item image {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.fourth,
+.book-rec {
+  border-bottom: 20rpx solid rgba(0, 0, 0, 0.1);
+}
+
