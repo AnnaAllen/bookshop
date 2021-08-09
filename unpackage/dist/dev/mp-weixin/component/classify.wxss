@@ -8,7 +8,7 @@
   -webkit-flex: 1;
           flex: 1;
   text-align: center;
-  font-size: 18rpx;
+  font-size: 24rpx;
 }
 .classiy .classiy-item .classiy-style text.data-v-5973db38 {
   color: white;

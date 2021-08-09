@@ -1,11 +1,11 @@
 <template>
 	<view class="fourth">
-		<view class="fourth-item" v-for="item in fourthData">
-			<view class="left-item">
+		<view class="fourth-item" v-for="(item,index) in fourthData">
+			<view class="left-item" @click="jumpToFourthDetail(index)">
 				<view class="title">{{item.title}}</view>
 				<view class="subhead">{{item.subhead}}</view>
 			</view>
-			<view class="right-item">
+			<view class="right-item" @click="jumpToFourthDetail(index)">
 				<image :src="item.url"></image>
 			</view>
 		</view>
@@ -16,12 +16,21 @@
 	export default{
 		data(){
 			return{
-
+				jumpTo: ''
 			}
 		},
 		props:[
 			'fourthData'
-		]
+		],
+		methods:{
+			jumpToFourthDetail(index){
+				this.jumpTo = this.fourthData[index].src
+				uni.setStorageSync('fourthDetail',this.fourthData[index])
+				uni.navigateTo({
+					url:this.jumpTo
+				})
+			}
+		}
 	}
 </script>
 

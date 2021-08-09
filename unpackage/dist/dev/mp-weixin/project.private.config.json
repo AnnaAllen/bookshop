@@ -23,6 +23,36 @@
           "pathName": "pages/find/find",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/findBook/findBook",
+          "pathName": "pages/findBook/findBook",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fourthDetail/fourthDetail",
+          "pathName": "pages/fourthDetail/fourthDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bookInfoDetail/bookInfoDetail",
+          "pathName": "pages/bookInfoDetail/bookInfoDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publish/publish",
+          "pathName": "pages/publish/publish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publishPage/publishPage",
+          "pathName": "pages/publishPage/publishPage",
+          "query": "",
+          "scene": null
         }
       ]
     }

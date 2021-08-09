@@ -1,0 +1,234 @@
+.isLike.data-v-bbcdd874 {
+  color: #DD524D;
+}
+.book-info-detail .writer-info.data-v-bbcdd874 {
+  padding: 20rpx;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100rpx;
+}
+.book-info-detail .writer-info .img-box.data-v-bbcdd874 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.book-info-detail .writer-info .img-box image.data-v-bbcdd874 {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.book-info-detail .writer-info .name.data-v-bbcdd874 {
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  -webkit-box-flex: 7;
+  -webkit-flex: 7;
+          flex: 7;
+}
+.book-info-detail .writer-info .name view.data-v-bbcdd874:nth-child(2) {
+  color: #999999;
+  font-size: 28rpx;
+}
+.book-info-detail .writer-info .collect.data-v-bbcdd874 {
+  letter-spacing: 2rpx;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.book-info-detail .writer-info .collect text.data-v-bbcdd874 {
+  float: right;
+  font-size: 28rpx;
+  background-color: #F0AD4E;
+  padding: 15rpx;
+  border-radius: 25rpx;
+  color: white;
+}
+.book-info-detail .writer-info .collect2.data-v-bbcdd874 {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.book-info-detail .writer-info .collect2 text.data-v-bbcdd874 {
+  float: right;
+  font-size: 28rpx;
+  background-color: #999999;
+  padding: 15rpx;
+  border-radius: 25rpx;
+  color: white;
+}
+.book-info-detail .white-content.data-v-bbcdd874 {
+  padding: 20rpx;
+}
+.book-info-detail .white-content .content-title.data-v-bbcdd874 {
+  font-weight: 600;
+  padding-bottom: 20rpx;
+}
+.book-info-detail .white-content .content-img.data-v-bbcdd874 {
+  text-align: center;
+}
+.book-info-detail .white-content .content-img image.data-v-bbcdd874 {
+  width: 100%;
+}
+.book-info-detail .white-content .content-text.data-v-bbcdd874 {
+  padding: 20rpx 0;
+  font-size: 28rpx;
+}
+.book-info-detail .book-style.data-v-bbcdd874 {
+  padding: 20rpx;
+  font-size: 30rpx;
+  letter-spacing: 2rpx;
+  border-bottom: 1rpx solid #F1F1F1;
+  margin-bottom: 20rpx;
+}
+.book-info-detail .book-style text.data-v-bbcdd874 {
+  padding: 10rpx;
+  border-radius: 20rpx;
+  color: #DD524D;
+  font-weight: 600;
+  background-color: #F1F1F1;
+}
+.book-info-detail .book-style text.data-v-bbcdd874:nth-child(2) {
+  margin-left: 20rpx;
+}
+.book-info-detail .leave-a-message.data-v-bbcdd874 {
+  border-top: 20rpx solid #F1F1F1;
+  padding: 20rpx;
+}
+.book-info-detail .leave-a-message .message-box1.data-v-bbcdd874 {
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.book-info-detail .leave-a-message .message-box1 view.data-v-bbcdd874:nth-child(2) {
+  color: #999999;
+  font-size: 28rpx;
+}
+.book-info-detail .leave-a-message .comment.data-v-bbcdd874 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  vertical-align: center;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #F1F1F1;
+}
+.book-info-detail .leave-a-message .comment .userImg.data-v-bbcdd874 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.book-info-detail .leave-a-message .comment .userImg image.data-v-bbcdd874 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.book-info-detail .leave-a-message .comment .input-box.data-v-bbcdd874 {
+  -webkit-box-flex: 8;
+  -webkit-flex: 8;
+          flex: 8;
+}
+.book-info-detail .leave-a-message .comment .input-box input.data-v-bbcdd874 {
+  border: 1rpx solid #999999;
+  border-radius: 50rpx;
+  background-color: #F1F1F1;
+}
+.book-info-detail .comment-info.data-v-bbcdd874 {
+  padding: 30rpx 20rpx 20rpx 20rpx;
+  border-bottom: 2rpx solid #F1F1F1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.book-info-detail .comment-info .comment-userimg.data-v-bbcdd874 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.book-info-detail .comment-info .comment-userimg image.data-v-bbcdd874 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+.book-info-detail .comment-info .comment-userinfo.data-v-bbcdd874 {
+  -webkit-box-flex: 8;
+  -webkit-flex: 8;
+          flex: 8;
+  padding-left: 20rpx;
+}
+.book-info-detail .comment-info .comment-userinfo .comment-user.data-v-bbcdd874 {
+  padding-bottom: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.book-info-detail .comment-info .comment-userinfo .comment-user .c-name text.data-v-bbcdd874 {
+  padding-right: 20rpx;
+}
+.book-info-detail .comment-info .comment-userinfo .comment-user .c-reply.data-v-bbcdd874 {
+  color: #999999;
+  font-size: 28rpx;
+}
+.book-info-detail .comment-info .comment-userinfo .comment-content-info.data-v-bbcdd874 {
+  font-weight: 200;
+  padding-bottom: 10rpx;
+}
+.book-info-detail .comment-info .comment-userinfo .comment-content-time.data-v-bbcdd874 {
+  font-size: 24rpx;
+  color: #999999;
+}
+.book-info-detail .recommend-book.data-v-bbcdd874 {
+  padding: 20rpx;
+}
+.book-info-detail .recommend-book .recommend-title.data-v-bbcdd874 {
+  padding: 20rpx 0;
+  color: #DD524D;
+  text-align: center;
+}
+.book-info-detail .fixed-box.data-v-bbcdd874 {
+  background-color: white;
+  z-index: 20;
+  position: fixed;
+  width: 100%;
+  height: 90rpx;
+  bottom: 0;
+  -webkit-box-shadow: 0 5rpx 10rpx 10rpx #F1F1F1;
+          box-shadow: 0 5rpx 10rpx 10rpx #F1F1F1;
+}
+.book-info-detail .contact.data-v-bbcdd874 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 90rpx;
+  padding: 0 20rpx;
+  letter-spacing: 2rpx;
+}
+.book-info-detail .contact .like.data-v-bbcdd874 {
+  color: #555555;
+}
+.book-info-detail .contact .like text.data-v-bbcdd874:nth-child(2) {
+  padding-left: 10rpx;
+  color: #999999;
+}
+.book-info-detail .contact .I-Want text.data-v-bbcdd874 {
+  background-color: #DD524D;
+  padding: 10rpx;
+  border-radius: 30rpx;
+  color: white;
+}
+

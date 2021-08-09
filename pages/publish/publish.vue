@@ -2,12 +2,12 @@
 	<view class="public">
 		<view class="public-box">
 			<uni-transition modeClass="slide-bottom" :show="show" :duration="time">
-				<view class="public-item" v-for="item in publicItem">
+				<view class="public-item" v-for="(item,index) in publicItem">
 					<view class="blank"></view>
-					<view class="item-img">
+					<view class="item-img" @click="jumpTo(index)">
 						<view :class="item.icon"></view>
 					</view>
-					<view class="item-content">
+					<view class="item-content" @click="jumpTo(index)">
 						<view class="title">{{item.title}}</view>
 						<view class="explain">{{item.content}}</view>
 					</view>
@@ -39,14 +39,12 @@
 					},
 					{
 						'icon': 'iconfont icon-jiaoliu',
-						'title': '发布书评',
+						'title': '书评聊天',
 						'content': '发布自己的感想与他人交流'
 					}
 				],
 				show: false,
 				time: 700,
-				
-
 			}
 		},
 		methods: {
@@ -55,6 +53,12 @@
 			},
 			changeShow(){
 				this.show = false
+			},
+			jumpTo(index){
+				uni.setStorageSync('publishData',this.publicItem[index].title)
+				uni.navigateTo({
+					url:'../publishPage/publishPage'
+				})
 			}
 		},
 		onShow() {

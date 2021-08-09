@@ -1,8 +1,8 @@
 <template>
 	<view class="user-like">
 		<view class="like-item">
-			<view class="item-box2" v-for="item in userCllect">
-				<view class="box2-big">
+			<view class="item-box2" v-for="(item,index) in userCllect">
+				<view class="box2-big" @click="jumpBookDetail(index)">
 					<view class="box2-user-info">
 						<view class="user-img">
 							<image :src="item.writerImg"></image>
@@ -14,7 +14,7 @@
 					<view class="box2-title">{{item.title}}</view>
 					<view class="box2-content">{{item.content}}</view>
 					<view class="box2-img">
-						<image :src="item.image"></image>
+						<image :src="item.image" mode="widthFix"></image>
 					</view>
 				</view>
 			</view>
@@ -35,6 +35,12 @@
 		methods:{
 			changeAtten(id){
 				this.$emit('getNewAtten',id)//每点击一次就把id传回给parent组件
+			},
+			jumpBookDetail(index){
+				uni.setStorageSync('bookDetail',this.userCllect[index])
+				uni.navigateTo({
+					url:'../bookInfoDetail/bookInfoDetail'
+				})
 			}
 		}
 	}
@@ -90,7 +96,7 @@
 						overflow: hidden;
 					}
 					.box2-content{
-						padding: 10rpx;
+						margin: 20rpx;
 						color: #555555;
 						font-size: 24rpx;
 						//多行文本溢出显示省略号

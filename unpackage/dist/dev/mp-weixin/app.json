@@ -5,7 +5,11 @@
     "pages/publish/publish",
     "pages/my/my",
     "pages/collect/collect",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/findBook/findBook",
+    "pages/fourthDetail/fourthDetail",
+    "pages/bookInfoDetail/bookInfoDetail",
+    "pages/publishPage/publishPage"
   ],
   "subPackages": [],
   "window": {

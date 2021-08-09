@@ -3,8 +3,8 @@
 		<view @click="search">
 			<search></search>
 		</view>
-		<!-- 轮播图 -->
 		<view class="box">
+			<!-- 轮播图 -->
 			<view class="index-swiper">
 				<swiper 
 				indicator-dots="true" 
@@ -33,73 +33,85 @@
 			return {
 				swipers: [
 					{
-						"src":"https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg"
+						"src":"http://img61.ddimg.cn/upload_img/00316/by/750x315-1625025326.jpg"
 					},
 					{
-						"src": "https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg"
+						"src": "http://img62.ddimg.cn/upload_img/00881/1111/750X315_20210806-1628235092.jpg"
 					}
 				],
 				name:[
 					{
 						'img':'iconfont icon-jiaohuan',
-						'name':'交换图书'
+						'name':'交换图书',
+						'url': '../find/find'
 					},
 					{
 						'img':'iconfont icon-yiwu',
-						'name':'以书易物'
+						'name':'以书易物',
+						'url': '../find/find'
 					},
 					{
 						'img':'iconfont icon-chushou',
-						'name':'出售图书'
+						'name':'出售图书',
+						'url': '../find/find'
 					},
 					{
 						'img':'iconfont icon-jiaoliu',
-						'name':'书评交流'
+						'name':'书评交流',
+						'url': '../find/find'
 					}
 				],
 				fourthData: [
 					{
 						'title': '新增书籍',
 						'subhead': '发现好书',
-						'url': 'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg'
+						'src': '../fourthDetail/fourthDetail',
+						'fouthStyle': 1,
+						'url': 'http://img3m4.ddimg.cn/49/23/29256034-1_l_30.jpg'
 					},
 					{
-						'title': '新增书籍',
+						'title': '推荐书籍',
 						'subhead': '发现好书',
-						'url': 'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg'
+						'src': '../fourthDetail/fourthDetail',
+						'fouthStyle': 2,
+						'url': '//img3m6.ddimg.cn/70/7/29171806-1_w_6.jpg'
 					},
 					{
-						'title': '新增书籍',
+						'title': '热门浏览',
 						'subhead': '发现好书',
-						'url': 'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg'
+						'src': '../fourthDetail/fourthDetail',
+						'fouthStyle': 3,
+						'url': '//img3m5.ddimg.cn/24/24/28963365-1_w_6.jpg'
 					},
 					{
-						'title': '新增书籍',
+						'title': '大热书评',
 						'subhead': '发现好书',
-						'url': 'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg'
+						'src': '../fourthDetail/fourthDetail',
+						'fouthStyle': 4,
+						'url': '//img3m4.ddimg.cn/93/13/28536744-1_w_3.jpg'
 					}
 				],
 				bookInfo: [
 					{
-						'img':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'img':'//img3m0.ddimg.cn/64/34/29192590-1_w_11.jpg',
 						'title': '唐诗全集',
 						'writer': '陈卓越',
 						'style': '以书易书'
 					},
 					{
-						'img':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'img':'//img3m5.ddimg.cn/44/30/23999525-5_u_23.jpg',
 						'title': '唐诗全集',
 						'writer': '陈卓越',
 						'style': '以书易书'
 					},
 					{
-						'img':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'img':'//img3m8.ddimg.cn/25/27/29278978-1_w_1440.jpg',
 						'title': '唐诗全集',
 						'writer': '陈卓越',
 						'style': '以书易书'
 					},
 					{
-						'img':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'img':'//img3m9.ddimg.cn/97/25/28996999-4_u_27.jpg',
 						'title': '唐诗全集',
 						'writer': '陈卓越',
 						'style': '以书易书'
@@ -107,17 +119,17 @@
 				],
 				newBookShow: [
 					{
-						'src':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'src':'//img3m5.ddimg.cn/44/30/23999525-5_u_23.jpg',
 						'infoTitle': '陈卓越著作唐诗全集，非常简单易懂,非常好用',
 						'infoContent': '这是一部非常厉害的书籍，记录了陈卓越最喜欢的故事。'
 					},
 					{
-						'src':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'src':'//img3m7.ddimg.cn/97/21/23618527-1_w_3.jpg',
 						'infoTitle': '陈卓越著作唐诗全集，非常简单易懂,非常好用',
 						'infoContent': '这是一部非常厉害的书籍，记录了陈卓越最喜欢的故事。'
 					},
 					{
-						'src':'https://www.z4a.net/images/2021/07/31/62076476_p4_master1200.jpg',
+						'src':'//img3m7.ddimg.cn/97/21/23618527-1_w_3.jpg',
 						'infoTitle': '陈卓越著作唐诗全集，非常简单易懂,非常好用',
 						'infoContent': '这是一部非常厉害的书籍，记录了陈卓越最喜欢的故事。'
 					}

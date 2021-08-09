@@ -2,20 +2,22 @@
 	<view class="book-rec">
 		<view class="book-top">
 			<view class="title">{{title}}</view>
-			<view class="more">
+			<view class="more" @click="moreBook">
 				{{more}}
 				<text :class="icon"></text>
 			</view>
 		</view>
 		<scroll-view scroll-x="true" >
 			<view class="book-content">
-				<view class="book-item"  v-for="item in bookInfo">
-					<image :src="item.img"></image>
-					<view class="book-info">
-						<view class="title">{{item.title}}</view>
-						<view class="writer">作者：{{item.writer}}</view>
-						<view class="shop-style">
-							方式：<text>{{item.style}}</text>
+				<view class="book-item"  v-for="(item,index) in bookInfo">
+					<view @click="jumpTo(index)">
+						<image :src="item.img"></image>
+						<view class="book-info">
+							<view class="title">{{item.title}}</view>
+							<view class="writer">作者：{{item.writer}}</view>
+							<view class="shop-style">
+								方式：<text>{{item.style}}</text>
+							</view>
 						</view>
 					</view>
 				</view>
@@ -35,7 +37,20 @@
 		},
 		props:[
 			'bookInfo'
-		]
+		],
+		methods:{
+			moreBook(){
+				uni.setStorageSync('searchData','更多好书')
+				uni.navigateTo({
+					url:'../findBook/findBook'
+				})
+			},
+			jumpTo(index){
+				uni.navigateTo({
+					url:'../fourthDetail/fourthDetail'
+				})
+			}
+		}
 	}
 </script>
 

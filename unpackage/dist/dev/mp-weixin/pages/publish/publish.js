@@ -96,7 +96,7 @@ var components
 try {
   components = {
     uniTransition: function() {
-      return Promise.all(/*! import() | uni_modules/uni-transition/components/uni-transition/uni-transition */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-transition/components/uni-transition/uni-transition")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-transition/components/uni-transition/uni-transition.vue */ 100))
+      return Promise.all(/*! import() | uni_modules/uni-transition/components/uni-transition/uni-transition */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-transition/components/uni-transition/uni-transition")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-transition/components/uni-transition/uni-transition.vue */ 132))
     }
   }
 } catch (e) {
@@ -153,7 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -194,14 +194,12 @@ var _default =
 
       {
         'icon': 'iconfont icon-jiaoliu',
-        'title': '发布书评',
+        'title': '书评聊天',
         'content': '发布自己的感想与他人交流' }],
 
 
       show: false,
       time: 700 };
-
-
 
   },
   methods: {
@@ -210,6 +208,12 @@ var _default =
     },
     changeShow: function changeShow() {
       this.show = false;
+    },
+    jumpTo: function jumpTo(index) {
+      uni.setStorageSync('publishData', this.publicItem[index].title);
+      uni.navigateTo({
+        url: '../publishPage/publishPage' });
+
     } },
 
   onShow: function onShow() {
@@ -218,6 +222,7 @@ var _default =
   onHide: function onHide() {
     this.changeShow();
   } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

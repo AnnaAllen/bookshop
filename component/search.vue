@@ -4,10 +4,10 @@
 		<view class="search-in">
 			<input 
 			type="text" 
-			placeholder="请输入名称/作者" 
+			:placeholder='message'
 			confirm-type="搜索"
 			@confirm="inputData"
-			>
+			><!-- @confirm="inputData"：回车后把执行这个方法 -->
 			<text class="iconfont icon-xingtaiduICON_sousuo--"></text>
 		</view>
 		<slot name="right"></slot>
@@ -18,15 +18,20 @@
 	export default {
 		data(){
 			return{
-				testData: ''
+				testData: '',
+				message: '请输入名称/作者'
 			}
 		},
 		methods:{
 			inputData(e){
 				this.testData = e.detail.value
-				this.$emit('userSearch',this.testData)
-			}
-		}
+				uni.setStorageSync('searchData',this.testData)
+				uni.navigateTo({
+					url:'../findBook/findBook'
+				})
+			},
+		},
+		
 	}
 </script>
 

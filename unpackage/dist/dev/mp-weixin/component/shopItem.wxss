@@ -2,7 +2,6 @@
   color: #DD524D;
 }
 .shop-item.data-v-5acc86ee {
-  padding: 40rpx 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;

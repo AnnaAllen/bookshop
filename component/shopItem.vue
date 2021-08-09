@@ -1,13 +1,15 @@
 <template>
 	<view class="shop-item">
 		<view class="item-box" v-for="(item,index) in userInfo" >
-			<view class="img-box">
-				<image :src="item.userP"></image>
+			<view @click="jumpTo(index)">
+				<view class="img-box">
+					<image :src="item.userP" mode="widthFix"></image>
+				</view>
+				<view class="content">{{item.userContent}}</view>
 			</view>
-			<view class="content">{{item.userContent}}</view>
 			<view class="user-box">
 				<view class="user-img">
-					<image :src="item.userImg"></image>
+					<image :src="item.userImg" mode="aspectFill"></image>
 				</view>
 				<view class="user-name">{{item.userName}}</view>
 				<view 
@@ -36,6 +38,11 @@
 		methods:{
 			like(userID){
 				this.$emit('changeUserLike',userID)
+			},
+			jumpTo(index){
+				uni.navigateTo({
+					url:"../bookInfoDetail/bookInfoDetail"
+				})
 			}
 		},
 		//页面初次渲染完成后加载
@@ -49,7 +56,7 @@
 		color: #DD524D;
 	}
 	.shop-item{
-		padding: 40rpx 20rpx;
+		// padding: 20rpx;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;

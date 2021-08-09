@@ -2,13 +2,13 @@
 	<view class="new-book">
 		<view class="book-top">
 			<view class="title">{{title}}</view>
-			<view class="more">
+			<view class="more" @click="moreBook">
 				{{more}}
 				<text :class="url"></text>
 			</view>
 		</view>
-		<view class="book-item" v-for="item in newBookShow">
-			<view class="item-box">
+		<view class="book-item" v-for="(item,index) in newBookShow">
+			<view class="item-box" @click="jumpTo(index)">
 				<view class="left">
 					<image :src="item.src"></image>
 				</view>
@@ -32,7 +32,20 @@
 		},
 		props:[
 			'newBookShow'
-		]
+		],
+		methods:{
+			moreBook(){
+				uni.setStorageSync('searchData','新书广场')
+				uni.navigateTo({
+					url:'../findBook/findBook'
+				})
+			},
+			jumpTo(index){
+				uni.navigateTo({
+					url:'../fourthDetail/fourthDetail'
+				})
+			}
+		}
 	}
 </script>
 
@@ -43,7 +56,7 @@
 			display: flex;
 			justify-content: space-between;
 			.more,text{
-				font-size: 9px;
+				font-size: 24rpx;
 				color: #999999;
 			}
 		}

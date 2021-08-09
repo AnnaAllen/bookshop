@@ -1,8 +1,8 @@
 <template>
 	<view class="classiy">
 		<view class="classiy-item">
-			<view  v-for="item in name" class="classiy-style">
-				<text :class='item.img'></text>
+			<view  v-for="(item,index) in name" class="classiy-style">
+				<text :class='item.img' @click="jump(index)"></text>
 				<view>{{item.name}}</view>
 			</view>
 		</view>
@@ -19,7 +19,16 @@
 		},
 		props:[
 			'name'
-		]
+		],
+		methods:{
+			jump(num){
+				console.log(this.name[num].url)
+				uni.setStorageSync('classify',num)
+				uni.switchTab({
+					url:this.name[num].url
+				})
+			}
+		}
 	}
 </script>
 
@@ -30,7 +39,7 @@
 			.classiy-style{
 				flex: 1;
 				text-align: center;
-				font-size: 18rpx;
+				font-size: 24rpx;
 				text{
 					color: white;
 					font-size: 60rpx;

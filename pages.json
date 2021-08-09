@@ -35,8 +35,41 @@
         "style" :{
             "navigationBarTitleText": "搜索"
         }
+    },   
+    {
+        "path" : "pages/findBook/findBook",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "搜索"
+        }
+        
+    },    
+    {
+        "path" : "pages/fourthDetail/fourthDetail",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "推荐"
+        }
+        
+    }, 
+    {
+        "path" : "pages/bookInfoDetail/bookInfoDetail",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "书籍详情"
+        }
+        
     }    
         
+        ,{
+            "path" : "pages/publishPage/publishPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -1,0 +1,1 @@
+<view class="find-book data-v-227c3e74"><view class="user-search-info data-v-227c3e74">{{'根据您搜索“'+searchInfo+'”推荐'}}</view><view class="book-item data-v-227c3e74"><shop-item vue-id="2d0a8e00-1" userInfo="{{userInfo}}" class="data-v-227c3e74" bind:__l="__l"></shop-item></view></view>

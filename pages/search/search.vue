@@ -1,7 +1,7 @@
 <template>
 	<view class="big-box">
 		<view class="searchPage">
-			<search @userSearch="userSearch"></search>
+			<search></search>
 			<view class="search-history">
 				<view class="title">
 					<view class="title-box">历史搜索记录</view>
@@ -12,7 +12,7 @@
 			</view>
 			<view class="history-box">
 				<view v-if="historyData" class="hasHistory">
-					<view class="history-item" v-for="item in historyData">
+					<view class="history-item" v-for="(item,index) in historyData" @click="userInput(index)">
 						{{item}}
 					</view>
 				</view>
@@ -27,25 +27,24 @@
 	export default {
 		data() {
 			return {
-				useInput: [],
-				historyData: ['水','火','L月','黑色小本本','夜神月','misa','L','deathNote']
+				clickHistoryData: '',
+				historyData: ['水','火','夜神月','misa','L','death','Note','推理小说']
 			}
 		},
 		methods: {
 			deleteData(){
 				this.historyData = null
 			},
-			userSearch(str){
-				this.historyData.push(str)
-				//跳转到寻书的推荐页面
-				uni.switchTab({
-					url:'../find/find'
+			//点击数组中原有的数据后，1.加入历史数组 2.将点击的数据放入缓存 3.跳转到找书页面
+			userInput(num){
+				this.clickHistoryData = this.historyData[num]
+				uni.setStorageSync('searchData',this.clickHistoryData)
+				this.historyData.push(uni.getStorageSync('searchData'))
+				uni.navigateTo({
+					url:'../findBook/findBook'
 				})
-				//把参数设置到缓存中
-				uni.setStorageSync('searchData',str)
 			}
 		},
-		
 		components:{
 			search
 		},
@@ -68,7 +67,7 @@
 	}
 	.history-box{
 		padding-top: 20rpx;
-		height: 30vh;
+		height: 34vh;
 		border-bottom: 2rpx solid #C8C7CC;
 		overflow: hidden;
 		.forAWhite{

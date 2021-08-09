@@ -15,7 +15,7 @@
 }
 .history-box.data-v-4cedc0c6 {
   padding-top: 20rpx;
-  height: 30vh;
+  height: 34vh;
   border-bottom: 2rpx solid #C8C7CC;
   overflow: hidden;
 }

@@ -143,7 +143,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _classify = _interopRequireDefault(__webpack_require__(/*! ../../component/classify.vue */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var userInfo = function userInfo() {__webpack_require__.e(/*! require.ensure | component/userInfo */ "component/userInfo").then((function () {return resolve(__webpack_require__(/*! ../../component/userInfo.vue */ 106));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var userInfo2 = function userInfo2() {__webpack_require__.e(/*! require.ensure | component/userInfo2 */ "component/userInfo2").then((function () {return resolve(__webpack_require__(/*! ../../component/userInfo2.vue */ 113));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+var _classify = _interopRequireDefault(__webpack_require__(/*! ../../component/classify.vue */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var userInfo = function userInfo() {__webpack_require__.e(/*! require.ensure | component/userInfo */ "component/userInfo").then((function () {return resolve(__webpack_require__(/*! ../../component/userInfo.vue */ 138));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var userInfo2 = function userInfo2() {__webpack_require__.e(/*! require.ensure | component/userInfo2 */ "component/userInfo2").then((function () {return resolve(__webpack_require__(/*! ../../component/userInfo2.vue */ 145));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 {
   data: function data() {
     return {
@@ -279,7 +279,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -299,7 +299,17 @@ var _default =
 
   },
   props: [
-  'name'] };exports.default = _default;
+  'name'],
+
+  methods: {
+    jump: function jump(num) {
+      console.log(this.name[num].url);
+      uni.setStorageSync('classify', num);
+      uni.switchTab({
+        url: this.name[num].url });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

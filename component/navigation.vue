@@ -29,6 +29,9 @@
 				//选择到该view时，显示下面的border
 				this.current = index
 			}
+		},
+		onShow() {
+			
 		}
 	}
 </script>

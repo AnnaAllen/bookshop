@@ -56,7 +56,7 @@
   overflow: hidden;
 }
 .user-like .like-item .item-box2 .box2-big .box2-content.data-v-21d76395 {
-  padding: 10rpx;
+  margin: 20rpx;
   color: #555555;
   font-size: 24rpx;
   display: -webkit-box;
